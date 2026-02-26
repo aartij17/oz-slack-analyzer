@@ -1,0 +1,57 @@
+tenant_id,user_email,timestamp,event_type,channel_name,source_location,user_agent,details
+T-1001,alice@acme.com,2026-02-10T09:12:00Z,login,,office-west-a,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),successful login
+T-1001,alice@acme.com,2026-02-10T09:15:00Z,message_sent,#general,office-west-a,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1001,alice@acme.com,2026-02-10T10:30:00Z,file_uploaded,#design-reviews,office-west-a,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),mockup-v3.png
+T-1001,alice@acme.com,2026-02-10T11:45:00Z,message_sent,#design-reviews,office-west-a,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1001,bob@acme.com,2026-02-10T09:05:00Z,login,,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),successful login
+T-1001,bob@acme.com,2026-02-10T09:20:00Z,message_sent,#engineering,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1001,bob@acme.com,2026-02-10T10:00:00Z,message_sent,#general,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1001,bob@acme.com,2026-02-10T14:30:00Z,channel_created,#sprint-retro,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1001,bob@acme.com,2026-02-10T14:32:00Z,member_added,#sprint-retro,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),added alice@acme.com
+T-1001,alice@acme.com,2026-02-10T15:00:00Z,message_sent,#sprint-retro,office-west-a,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1001,alice@acme.com,2026-02-10T16:45:00Z,file_uploaded,#engineering,office-west-a,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),api-spec.yaml
+T-1001,bob@acme.com,2026-02-11T09:10:00Z,login,,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),successful login
+T-1001,alice@acme.com,2026-02-11T09:08:00Z,login,,office-west-a,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),successful login
+T-1001,alice@acme.com,2026-02-11T10:20:00Z,app_installed,,,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),installed Google Calendar integration
+T-1001,bob@acme.com,2026-02-11T13:00:00Z,message_sent,#engineering,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1001,bob@acme.com,2026-02-11T16:30:00Z,message_sent,#general,office-west-b,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1002,charlie@globex.com,2026-02-10T08:55:00Z,login,,office-east-c,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),successful login
+T-1002,charlie@globex.com,2026-02-10T09:10:00Z,message_sent,#product,office-east-c,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1002,charlie@globex.com,2026-02-10T10:00:00Z,message_sent,#general,office-east-c,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1002,diana@globex.com,2026-02-10T09:00:00Z,login,,office-east-d,Mozilla/5.0 (Windows NT 10.0; Win64; x64),successful login
+T-1002,diana@globex.com,2026-02-10T09:30:00Z,message_sent,#sales,office-east-d,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1002,diana@globex.com,2026-02-10T11:00:00Z,file_uploaded,#sales,office-east-d,Mozilla/5.0 (Windows NT 10.0; Win64; x64),q4-pipeline.xlsx
+T-1002,charlie@globex.com,2026-02-11T03:12:00Z,login,,external-unknown,python-requests/2.28.1,successful login
+T-1002,charlie@globex.com,2026-02-11T03:14:00Z,file_downloaded,#product,external-unknown,python-requests/2.28.1,roadmap-2026.pdf
+T-1002,charlie@globex.com,2026-02-11T03:15:00Z,file_downloaded,#engineering,external-unknown,python-requests/2.28.1,architecture-diagram.png
+T-1002,charlie@globex.com,2026-02-11T03:16:00Z,file_downloaded,#sales,external-unknown,python-requests/2.28.1,q4-pipeline.xlsx
+T-1002,charlie@globex.com,2026-02-11T03:17:00Z,file_downloaded,#executive,external-unknown,python-requests/2.28.1,board-deck-feb.pptx
+T-1002,charlie@globex.com,2026-02-11T03:18:00Z,file_downloaded,#hr-confidential,external-unknown,python-requests/2.28.1,salary-bands-2026.xlsx
+T-1002,charlie@globex.com,2026-02-11T03:22:00Z,permission_changed,,,python-requests/2.28.1,charlie@globex.com role changed from member to admin
+T-1002,charlie@globex.com,2026-02-11T03:25:00Z,channel_deleted,#finance-internal,external-unknown,python-requests/2.28.1,
+T-1002,charlie@globex.com,2026-02-11T03:26:00Z,channel_deleted,#hr-confidential,external-unknown,python-requests/2.28.1,
+T-1002,charlie@globex.com,2026-02-11T03:27:00Z,channel_deleted,#executive,external-unknown,python-requests/2.28.1,
+T-1002,charlie@globex.com,2026-02-11T03:28:00Z,channel_deleted,#legal-holds,external-unknown,python-requests/2.28.1,
+T-1002,charlie@globex.com,2026-02-11T03:30:00Z,member_removed,#product,external-unknown,python-requests/2.28.1,removed diana@globex.com
+T-1002,charlie@globex.com,2026-02-11T03:31:00Z,member_removed,#sales,external-unknown,python-requests/2.28.1,removed diana@globex.com
+T-1002,diana@globex.com,2026-02-11T09:00:00Z,login,,office-east-d,Mozilla/5.0 (Windows NT 10.0; Win64; x64),successful login
+T-1002,diana@globex.com,2026-02-11T09:15:00Z,message_sent,#general,office-east-d,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1003,eve@initech.com,2026-02-10T09:00:00Z,login,,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),successful login
+T-1003,eve@initech.com,2026-02-10T09:30:00Z,message_sent,#general,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1003,eve@initech.com,2026-02-10T10:15:00Z,message_sent,#engineering,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1003,frank@initech.com,2026-02-10T09:05:00Z,login,,office-central-f,Mozilla/5.0 (Windows NT 10.0; Win64; x64),successful login
+T-1003,frank@initech.com,2026-02-10T10:00:00Z,message_sent,#general,office-central-f,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1003,frank@initech.com,2026-02-10T14:00:00Z,app_installed,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64),installed Trello integration
+T-1003,frank@initech.com,2026-02-10T14:10:00Z,app_installed,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64),installed Zapier integration
+T-1003,frank@initech.com,2026-02-10T14:18:00Z,app_installed,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64),installed Webhooks integration
+T-1003,frank@initech.com,2026-02-10T14:25:00Z,app_installed,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64),installed Airtable integration
+T-1003,frank@initech.com,2026-02-10T14:30:00Z,app_installed,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64),installed Notion integration
+T-1003,frank@initech.com,2026-02-10T15:00:00Z,permission_changed,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64),frank@initech.com role changed from member to admin
+T-1003,eve@initech.com,2026-02-10T16:00:00Z,file_uploaded,#engineering,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),deploy-script.sh
+T-1003,eve@initech.com,2026-02-11T01:15:00Z,login,,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),successful login
+T-1003,eve@initech.com,2026-02-11T01:20:00Z,message_sent,#engineering,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1003,eve@initech.com,2026-02-11T01:35:00Z,message_sent,#engineering,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),
+T-1003,frank@initech.com,2026-02-11T09:00:00Z,login,,office-central-f,Mozilla/5.0 (Windows NT 10.0; Win64; x64),successful login
+T-1003,frank@initech.com,2026-02-11T09:30:00Z,member_removed,#engineering,office-central-f,Mozilla/5.0 (Windows NT 10.0; Win64; x64),removed eve@initech.com
+T-1003,frank@initech.com,2026-02-11T11:00:00Z,message_sent,#general,office-central-f,Mozilla/5.0 (Windows NT 10.0; Win64; x64),
+T-1003,eve@initech.com,2026-02-11T11:30:00Z,login,,office-central-e,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),successful login
